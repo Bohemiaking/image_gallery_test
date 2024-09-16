@@ -4,9 +4,7 @@ import 'package:get/get.dart';
 import 'package:pixabay_images_test/controllers/image_controller.dart';
 import 'package:pixabay_images_test/screens/images/widgets/image_card.dart';
 import 'package:pixabay_images_test/screens/images/widgets/image_shimmer.dart';
-import 'package:pixabay_images_test/screens/square_test/square_test_screen.dart';
 import 'package:pixabay_images_test/utils/helpers/debouncer.dart';
-import 'package:pixabay_images_test/utils/helpers/navigate.dart';
 import 'package:pixabay_images_test/utils/helpers/scroll_listner.dart';
 
 class ImagesScreen extends StatefulWidget {
