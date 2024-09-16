@@ -101,16 +101,7 @@ class _ImagesScreenState extends State<ImagesScreen> {
               });
             },
           ),
-          actions: [
-            TextButton(
-                onPressed: () {
-                  AppNavigation.push(context, const SquareAnimation());
-                },
-                child: Text(
-                  'Squares',
-                  style: TextStyle(color: Colors.grey.shade100),
-                ))
-          ],
+          
         ),
         body: RefreshIndicator.adaptive(
           onRefresh: () async {
