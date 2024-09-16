@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pixabay_images_test/controllers/image_controller.dart';
-import 'package:pixabay_images_test/screens/graphql/graph_ql_screen.dart';
 import 'package:pixabay_images_test/screens/images/widgets/image_card.dart';
 import 'package:pixabay_images_test/screens/images/widgets/image_shimmer.dart';
 import 'package:pixabay_images_test/screens/square_test/square_test_screen.dart';
