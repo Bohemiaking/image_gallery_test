@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       home: Padding(
         padding: EdgeInsets.all(32.0),
+        
         child: SquareAnimation(),
       ),
     );
